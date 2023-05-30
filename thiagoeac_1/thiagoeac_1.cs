@@ -69,7 +69,7 @@ namespace thiagoeac_1
 		public void Run(IEngine engine)
 
 		{
-			engine.GenerateInformation("Ol·MundofromWeb");
+			engine.GenerateInformation("Ol√°MundofromWeb Claudio");
 
 		}
 	}
