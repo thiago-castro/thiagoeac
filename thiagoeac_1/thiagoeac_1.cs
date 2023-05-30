@@ -67,8 +67,10 @@ namespace thiagoeac_1
 		/// </summary>
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
+
 		{
-	
+			engine.GenerateInformation("HelloWorld");
+
 		}
 	}
 }
