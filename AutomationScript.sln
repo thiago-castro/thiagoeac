@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{A42FD444-CE02-41FB-B946-038CFA492B35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F8A6418F-2139-4C9D-8AC0-918F1BD4D0BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{055D1EEB-B231-4A5E-8F4D-9ADFD00B207B}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{5DDA839D-3BE9-4528-8F8B-0DE20267D4CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{0ECBBE32-0085-4607-BC64-C9C6DBDD9A15}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{3025AF21-BD13-4B34-A98E-EDB5BAED62E1}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{AC2C866C-884F-48B2-B84A-70C2F48E501C}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thiagoeac", "thiagoeac", "{ED666360-7AEC-4649-A10A-8F1BF14363CE}"
+	ProjectSection(SolutionItems) = preProject
+		thiagoeac.xml = thiagoeac.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{AFEAB34C-411E-493D-B6AF-E08F2E962CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thiagoeac_1", "thiagoeac_1\thiagoeac_1.csproj", "{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ECBBE32-0085-4607-BC64-C9C6DBDD9A15} = {5DDA839D-3BE9-4528-8F8B-0DE20267D4CF}
+		{AC2C866C-884F-48B2-B84A-70C2F48E501C} = {A42FD444-CE02-41FB-B946-038CFA492B35}
+		{ED666360-7AEC-4649-A10A-8F1BF14363CE} = {F8A6418F-2139-4C9D-8AC0-918F1BD4D0BB}
+		{AFEAB34C-411E-493D-B6AF-E08F2E962CBC} = {ED666360-7AEC-4649-A10A-8F1BF14363CE}
+		{F3AB0027-C1E6-4E81-BD39-4437DC49ABA2} = {AFEAB34C-411E-493D-B6AF-E08F2E962CBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AA18753-80AF-4FF3-BC1B-451A7B149B4C}
+	EndGlobalSection
+EndGlobal
